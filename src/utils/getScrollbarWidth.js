@@ -2,6 +2,7 @@ import css from 'dom-css';
 let scrollbarWidth = false;
 
 export default function getScrollbarWidth() {
+  return true
     if (scrollbarWidth !== false) return scrollbarWidth;
     /* istanbul ignore else */
     if (typeof document !== 'undefined') {
